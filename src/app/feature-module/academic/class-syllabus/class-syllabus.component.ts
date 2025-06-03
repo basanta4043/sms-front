@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-class-syllabus',
-  templateUrl: './class-syllabus.component.html',
-  styleUrl: './class-syllabus.component.scss'
+    selector: 'app-class-syllabus',
+    templateUrl: './class-syllabus.component.html',
+    styleUrl: './class-syllabus.component.scss',
+    standalone: false
 })
 export class ClassSyllabusComponent {
   public routes = routes;

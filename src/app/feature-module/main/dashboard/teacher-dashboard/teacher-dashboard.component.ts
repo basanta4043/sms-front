@@ -23,9 +23,10 @@ export type ChartOptions = {
   grid?: ApexGrid | any;
 };
 @Component({
-  selector: 'app-teacher-dashboard',
-  templateUrl: './teacher-dashboard.component.html',
-  styleUrl: './teacher-dashboard.component.scss',
+    selector: 'app-teacher-dashboard',
+    templateUrl: './teacher-dashboard.component.html',
+    styleUrl: './teacher-dashboard.component.scss',
+    standalone: false
 })
 export class TeacherDashboardComponent {
   public routes = routes;

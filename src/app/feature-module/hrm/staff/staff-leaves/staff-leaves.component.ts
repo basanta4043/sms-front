@@ -8,9 +8,10 @@ import { staffLeaves, apiResultFormat, pageSelection } from '../../../../shared/
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-staff-leaves',
-  templateUrl: './staff-leaves.component.html',
-  styleUrl: './staff-leaves.component.scss'
+    selector: 'app-staff-leaves',
+    templateUrl: './staff-leaves.component.html',
+    styleUrl: './staff-leaves.component.scss',
+    standalone: false
 })
 export class StaffLeavesComponent {
   public routes = routes;

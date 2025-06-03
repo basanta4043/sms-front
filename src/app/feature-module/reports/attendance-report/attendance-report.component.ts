@@ -8,9 +8,10 @@ import { attendanceReport, apiResultFormat, pageSelection } from '../../../share
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-attendance-report',
-  templateUrl: './attendance-report.component.html',
-  styleUrl: './attendance-report.component.scss'
+    selector: 'app-attendance-report',
+    templateUrl: './attendance-report.component.html',
+    styleUrl: './attendance-report.component.scss',
+    standalone: false
 })
 export class AttendanceReportComponent {
   public routes = routes;

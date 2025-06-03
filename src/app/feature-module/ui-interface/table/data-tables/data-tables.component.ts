@@ -15,9 +15,10 @@ import {
 } from '../../../../shared/model/pages.model';
 
 @Component({
-  selector: 'app-data-tables',
-  templateUrl: './data-tables.component.html',
-  styleUrls: ['./data-tables.component.scss'],
+    selector: 'app-data-tables',
+    templateUrl: './data-tables.component.html',
+    styleUrls: ['./data-tables.component.scss'],
+    standalone: false
 })
 export class DataTablesComponent {
   initChecked = false;

@@ -8,9 +8,10 @@ import { DataService } from '../../../shared/data/data.service';
 import { studentDayWise, apiResultFormat, pageSelection } from '../../../shared/model/pages.model';
 
 @Component({
-  selector: 'app-student-day-wise',
-  templateUrl: './student-day-wise.component.html',
-  styleUrl: './student-day-wise.component.scss'
+    selector: 'app-student-day-wise',
+    templateUrl: './student-day-wise.component.html',
+    styleUrl: './student-day-wise.component.scss',
+    standalone: false
 })
 export class StudentDayWiseComponent {
   public routes = routes;

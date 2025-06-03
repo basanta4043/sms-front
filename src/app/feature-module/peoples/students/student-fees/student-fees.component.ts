@@ -13,9 +13,10 @@ import { FeesRecord, apiResultFormat } from '../../../../shared/model/pages.mode
 import {StudentService} from "../student.component.service";
 
 @Component({
-  selector: 'app-student-fees',
-  templateUrl: './student-fees.component.html',
-  styleUrl: './student-fees.component.scss'
+    selector: 'app-student-fees',
+    templateUrl: './student-fees.component.html',
+    styleUrl: './student-fees.component.scss',
+    standalone: false
 })
 export class StudentFeesComponent implements OnInit {
 

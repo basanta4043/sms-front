@@ -9,9 +9,10 @@ import { Sort } from '@angular/material/sort';
 import {StudentService} from "../student.component.service";
 
 @Component({
-  selector: 'app-students-list',
-  templateUrl: './students-list.component.html',
-  styleUrl: './students-list.component.scss'
+    selector: 'app-students-list',
+    templateUrl: './students-list.component.html',
+    styleUrl: './students-list.component.scss',
+    standalone: false
 })
 export class StudentsListComponent {
   initChecked = false;

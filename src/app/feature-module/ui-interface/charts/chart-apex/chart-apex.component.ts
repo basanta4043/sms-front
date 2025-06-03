@@ -23,9 +23,10 @@ export type ChartOptions = {
 
 
 @Component({
-  selector: 'app-chart-apex',
-  templateUrl: './chart-apex.component.html',
-  styleUrls: ['./chart-apex.component.scss'],
+    selector: 'app-chart-apex',
+    templateUrl: './chart-apex.component.html',
+    styleUrls: ['./chart-apex.component.scss'],
+    standalone: false
 })
 export class ChartApexComponent implements OnInit {
   public routes = routes;

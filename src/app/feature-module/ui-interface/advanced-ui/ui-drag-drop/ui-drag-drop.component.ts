@@ -4,9 +4,10 @@ import { routes } from '../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-ui-drag-drop',
-  templateUrl: './ui-drag-drop.component.html',
-  styleUrl: './ui-drag-drop.component.scss'
+    selector: 'app-ui-drag-drop',
+    templateUrl: './ui-drag-drop.component.html',
+    styleUrl: './ui-drag-drop.component.scss',
+    standalone: false
 })
 export class UiDragDropComponent {
   public routes = routes;

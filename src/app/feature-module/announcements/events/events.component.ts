@@ -7,9 +7,10 @@ import interactionPlugin from '@fullcalendar/interaction';
 import { routes } from '../../../shared/routes/routes';
 import { CommonService } from '../../../shared/common/common.service';
 @Component({
-  selector: 'app-events',
-  templateUrl: './events.component.html',
-  styleUrl: './events.component.scss'
+    selector: 'app-events',
+    templateUrl: './events.component.html',
+    styleUrl: './events.component.scss',
+    standalone: false
 })
 export class EventsComponent {
   public base = '';

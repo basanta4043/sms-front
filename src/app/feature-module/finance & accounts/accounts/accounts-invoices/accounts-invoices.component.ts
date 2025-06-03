@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-accounts-invoices',
-  templateUrl: './accounts-invoices.component.html',
-  styleUrl: './accounts-invoices.component.scss'
+    selector: 'app-accounts-invoices',
+    templateUrl: './accounts-invoices.component.html',
+    styleUrl: './accounts-invoices.component.scss',
+    standalone: false
 })
 export class AccountsInvoicesComponent {
   public routes = routes;

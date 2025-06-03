@@ -8,9 +8,10 @@ import { blogTags, apiResultFormat, pageSelection } from '../../../../shared/mod
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-blog-tags',
-  templateUrl: './blog-tags.component.html',
-  styleUrl: './blog-tags.component.scss'
+    selector: 'app-blog-tags',
+    templateUrl: './blog-tags.component.html',
+    styleUrl: './blog-tags.component.scss',
+    standalone: false
 })
 export class BlogTagsComponent {
   public routes = routes;

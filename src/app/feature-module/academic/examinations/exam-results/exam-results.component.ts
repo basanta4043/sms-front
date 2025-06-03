@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-exam-results',
-  templateUrl: './exam-results.component.html',
-  styleUrl: './exam-results.component.scss'
+    selector: 'app-exam-results',
+    templateUrl: './exam-results.component.html',
+    styleUrl: './exam-results.component.scss',
+    standalone: false
 })
 export class ExamResultsComponent {
   public routes = routes;

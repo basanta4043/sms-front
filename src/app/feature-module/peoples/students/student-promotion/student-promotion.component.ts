@@ -11,9 +11,10 @@ interface data {
   code: string;
 }
 @Component({
-  selector: 'app-student-promotion',
-  templateUrl: './student-promotion.component.html',
-  styleUrl: './student-promotion.component.scss'
+    selector: 'app-student-promotion',
+    templateUrl: './student-promotion.component.html',
+    styleUrl: './student-promotion.component.scss',
+    standalone: false
 })
 export class StudentPromotionComponent {
   public routes = routes;

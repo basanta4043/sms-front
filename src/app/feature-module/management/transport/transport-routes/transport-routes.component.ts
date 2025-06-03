@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-transport-routes',
-  templateUrl: './transport-routes.component.html',
-  styleUrl: './transport-routes.component.scss'
+    selector: 'app-transport-routes',
+    templateUrl: './transport-routes.component.html',
+    styleUrl: './transport-routes.component.scss',
+    standalone: false
 })
 export class TransportRoutesComponent {
   initChecked = false;

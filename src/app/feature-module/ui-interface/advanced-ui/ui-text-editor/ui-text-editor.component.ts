@@ -5,9 +5,10 @@ import { routes } from '../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-ui-text-editor',
-  templateUrl: './ui-text-editor.component.html',
-  styleUrl: './ui-text-editor.component.scss'
+    selector: 'app-ui-text-editor',
+    templateUrl: './ui-text-editor.component.html',
+    styleUrl: './ui-text-editor.component.scss',
+    standalone: false
 })
 export class UiTextEditorComponent implements OnInit, OnDestroy {
   public routes = routes;

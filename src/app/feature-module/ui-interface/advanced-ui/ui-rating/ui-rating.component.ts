@@ -9,9 +9,10 @@ interface StarModel {
   hover?: boolean;
 }
 @Component({
-  selector: 'app-ui-rating',
-  templateUrl: './ui-rating.component.html',
-  styleUrl: './ui-rating.component.scss',
+    selector: 'app-ui-rating',
+    templateUrl: './ui-rating.component.html',
+    styleUrl: './ui-rating.component.scss',
+    standalone: false
 })
 export class UiRatingComponent implements OnInit {
   public routes = routes;

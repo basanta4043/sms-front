@@ -8,9 +8,10 @@ import { dailyAttendance, apiResultFormat, pageSelection } from '../../../shared
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-daily-attendance',
-  templateUrl: './daily-attendance.component.html',
-  styleUrl: './daily-attendance.component.scss'
+    selector: 'app-daily-attendance',
+    templateUrl: './daily-attendance.component.html',
+    styleUrl: './daily-attendance.component.scss',
+    standalone: false
 })
 export class DailyAttendanceComponent {
   public routes = routes;

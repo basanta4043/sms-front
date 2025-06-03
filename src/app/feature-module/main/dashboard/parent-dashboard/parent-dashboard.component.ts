@@ -26,9 +26,10 @@ import {
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-parent-dashboard',
-  templateUrl: './parent-dashboard.component.html',
-  styleUrl: './parent-dashboard.component.scss'
+    selector: 'app-parent-dashboard',
+    templateUrl: './parent-dashboard.component.html',
+    styleUrl: './parent-dashboard.component.scss',
+    standalone: false
 })
 export class ParentDashboardComponent {
   public routes = routes;

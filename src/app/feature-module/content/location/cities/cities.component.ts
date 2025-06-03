@@ -12,9 +12,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-cities',
-  templateUrl: './cities.component.html',
-  styleUrl: './cities.component.scss'
+    selector: 'app-cities',
+    templateUrl: './cities.component.html',
+    styleUrl: './cities.component.scss',
+    standalone: false
 })
 export class CitiesComponent {
   initChecked = false;

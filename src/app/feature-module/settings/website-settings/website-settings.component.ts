@@ -3,9 +3,10 @@ import { routes } from '../../../shared/routes/routes';
 import { CommonService } from '../../../shared/common/common.service';
 
 @Component({
-  selector: 'app-website-settings',
-  templateUrl: './website-settings.component.html',
-  styleUrl: './website-settings.component.scss'
+    selector: 'app-website-settings',
+    templateUrl: './website-settings.component.html',
+    styleUrl: './website-settings.component.scss',
+    standalone: false
 })
 export class WebsiteSettingsComponent {
 

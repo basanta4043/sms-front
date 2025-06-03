@@ -2,9 +2,10 @@ import { Component, Renderer2 } from '@angular/core';
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-student-grid',
-  templateUrl: './student-grid.component.html',
-  styleUrl: './student-grid.component.scss'
+    selector: 'app-student-grid',
+    templateUrl: './student-grid.component.html',
+    styleUrl: './student-grid.component.scss',
+    standalone: false
 })
 export class StudentGridComponent {
   public routes = routes;

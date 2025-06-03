@@ -12,9 +12,10 @@ interface data {
   value: string;
 }
 @Component({
-  selector: 'app-call-history',
-  templateUrl: './call-history.component.html',
-  styleUrl: './call-history.component.scss',
+    selector: 'app-call-history',
+    templateUrl: './call-history.component.html',
+    styleUrl: './call-history.component.scss',
+    standalone: false
 })
 export class CallHistoryComponent {
   initChecked = false;

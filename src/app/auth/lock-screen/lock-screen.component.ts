@@ -3,9 +3,10 @@ import { routes } from '../../shared/routes/routes';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-lock-screen',
-  templateUrl: './lock-screen.component.html',
-  styleUrl: './lock-screen.component.scss'
+    selector: 'app-lock-screen',
+    templateUrl: './lock-screen.component.html',
+    styleUrl: './lock-screen.component.scss',
+    standalone: false
 })
 export class LockScreenComponent {
   public routes = routes;

@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-exam-attendance',
-  templateUrl: './exam-attendance.component.html',
-  styleUrl: './exam-attendance.component.scss'
+    selector: 'app-exam-attendance',
+    templateUrl: './exam-attendance.component.html',
+    styleUrl: './exam-attendance.component.scss',
+    standalone: false
 })
 export class ExamAttendanceComponent {
   public routes = routes;

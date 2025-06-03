@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-payroll',
-  templateUrl: './payroll.component.html',
-  styleUrl: './payroll.component.scss'
+    selector: 'app-payroll',
+    templateUrl: './payroll.component.html',
+    styleUrl: './payroll.component.scss',
+    standalone: false
 })
 export class PayrollComponent {
   initChecked = false;

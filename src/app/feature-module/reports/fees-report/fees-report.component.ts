@@ -8,9 +8,10 @@ import { feesReport, apiResultFormat, pageSelection } from '../../../shared/mode
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-fees-report',
-  templateUrl: './fees-report.component.html',
-  styleUrl: './fees-report.component.scss'
+    selector: 'app-fees-report',
+    templateUrl: './fees-report.component.html',
+    styleUrl: './fees-report.component.scss',
+    standalone: false
 })
 export class FeesReportComponent {
   public routes = routes;

@@ -3,9 +3,10 @@ import { routes } from '../../../../shared/routes/routes';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-preferences',
-  templateUrl: './preferences.component.html',
-  styleUrl: './preferences.component.scss'
+    selector: 'app-preferences',
+    templateUrl: './preferences.component.html',
+    styleUrl: './preferences.component.scss',
+    standalone: false
 })
 export class PreferencesComponent {
   public routes = routes;

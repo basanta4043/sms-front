@@ -3,10 +3,11 @@ import { routes } from '../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-ui-scrollbar',
-  templateUrl: './ui-scrollbar.component.html',
-  styleUrl: './ui-scrollbar.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-ui-scrollbar',
+    templateUrl: './ui-scrollbar.component.html',
+    styleUrl: './ui-scrollbar.component.scss',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class UiScrollbarComponent {
   public routes = routes;

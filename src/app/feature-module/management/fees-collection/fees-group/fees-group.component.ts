@@ -8,9 +8,10 @@ import { feesGroup, apiResultFormat, pageSelection } from '../../../../shared/mo
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-fees-group',
-  templateUrl: './fees-group.component.html',
-  styleUrl: './fees-group.component.scss'
+    selector: 'app-fees-group',
+    templateUrl: './fees-group.component.html',
+    styleUrl: './fees-group.component.scss',
+    standalone: false
 })
 export class FeesGroupComponent {
   public routes = routes;

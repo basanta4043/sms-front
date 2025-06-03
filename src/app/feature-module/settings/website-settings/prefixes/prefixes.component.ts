@@ -3,9 +3,10 @@ import { routes } from '../../../../shared/routes/routes';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-prefixes',
-  templateUrl: './prefixes.component.html',
-  styleUrl: './prefixes.component.scss'
+    selector: 'app-prefixes',
+    templateUrl: './prefixes.component.html',
+    styleUrl: './prefixes.component.scss',
+    standalone: false
 })
 export class PrefixesComponent {
   public routes = routes;

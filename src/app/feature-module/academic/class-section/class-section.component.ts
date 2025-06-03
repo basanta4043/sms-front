@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-class-section',
-  templateUrl: './class-section.component.html',
-  styleUrl: './class-section.component.scss'
+    selector: 'app-class-section',
+    templateUrl: './class-section.component.html',
+    styleUrl: './class-section.component.scss',
+    standalone: false
 })
 export class ClassSectionComponent {
   public routes = routes;

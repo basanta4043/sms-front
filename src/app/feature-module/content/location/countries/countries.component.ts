@@ -8,9 +8,10 @@ import { countries, apiResultFormat, pageSelection } from '../../../../shared/mo
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-countries',
-  templateUrl: './countries.component.html',
-  styleUrl: './countries.component.scss'
+    selector: 'app-countries',
+    templateUrl: './countries.component.html',
+    styleUrl: './countries.component.scss',
+    standalone: false
 })
 export class CountriesComponent {
   public routes = routes;

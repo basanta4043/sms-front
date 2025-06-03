@@ -8,9 +8,10 @@ import { staffAttendance, apiResultFormat, pageSelection } from '../../../../sha
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-staff-attendance',
-  templateUrl: './staff-attendance.component.html',
-  styleUrl: './staff-attendance.component.scss'
+    selector: 'app-staff-attendance',
+    templateUrl: './staff-attendance.component.html',
+    styleUrl: './staff-attendance.component.scss',
+    standalone: false
 })
 export class StaffAttendanceComponent {
   public routes = routes;

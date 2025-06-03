@@ -4,9 +4,10 @@ import {Router} from "@angular/router";
 
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.scss'
+    selector: 'app-dashboard',
+    templateUrl: './dashboard.component.html',
+    styleUrl: './dashboard.component.scss',
+    standalone: false
 })
 export class DashboardComponent implements OnInit {
   constructor(private router: Router) {

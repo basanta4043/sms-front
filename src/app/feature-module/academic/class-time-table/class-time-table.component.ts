@@ -7,9 +7,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-class-time-table',
-  templateUrl: './class-time-table.component.html',
-  styleUrl: './class-time-table.component.scss'
+    selector: 'app-class-time-table',
+    templateUrl: './class-time-table.component.html',
+    styleUrl: './class-time-table.component.scss',
+    standalone: false
 })
 export class ClassTimeTableComponent {
   public routes = routes;

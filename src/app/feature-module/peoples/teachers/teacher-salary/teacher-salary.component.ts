@@ -8,9 +8,10 @@ import { teacherSalary, apiResultFormat, pageSelection } from '../../../../share
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-teacher-salary',
-  templateUrl: './teacher-salary.component.html',
-  styleUrl: './teacher-salary.component.scss'
+    selector: 'app-teacher-salary',
+    templateUrl: './teacher-salary.component.html',
+    styleUrl: './teacher-salary.component.scss',
+    standalone: false
 })
 export class TeacherSalaryComponent {
   public routes = routes;

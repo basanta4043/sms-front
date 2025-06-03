@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-users',
-  templateUrl: './users.component.html',
-  styleUrl: './users.component.scss'
+    selector: 'app-users',
+    templateUrl: './users.component.html',
+    styleUrl: './users.component.scss',
+    standalone: false
 })
 export class UsersComponent {
   initChecked = false;

@@ -3,9 +3,10 @@ import { routes } from '../../../shared/routes/routes';
 import { CommonService } from '../../../shared/common/common.service';
 
 @Component({
-  selector: 'app-general-settings',
-  templateUrl: './general-settings.component.html',
-  styleUrl: './general-settings.component.scss'
+    selector: 'app-general-settings',
+    templateUrl: './general-settings.component.html',
+    styleUrl: './general-settings.component.scss',
+    standalone: false
 })
 export class GeneralSettingsComponent {
 public routes = routes

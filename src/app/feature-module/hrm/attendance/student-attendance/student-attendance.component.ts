@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-student-attendance',
-  templateUrl: './student-attendance.component.html',
-  styleUrl: './student-attendance.component.scss'
+    selector: 'app-student-attendance',
+    templateUrl: './student-attendance.component.html',
+    styleUrl: './student-attendance.component.scss',
+    standalone: false
 })
 export class StudentAttendanceComponent {
   public routes = routes;

@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-fees-assign',
-  templateUrl: './fees-assign.component.html',
-  styleUrl: './fees-assign.component.scss'
+    selector: 'app-fees-assign',
+    templateUrl: './fees-assign.component.html',
+    styleUrl: './fees-assign.component.scss',
+    standalone: false
 })
 export class FeesAssignComponent {
   public routes = routes;

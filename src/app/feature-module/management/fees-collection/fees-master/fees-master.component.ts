@@ -8,9 +8,10 @@ import { feesMaster, apiResultFormat, pageSelection } from '../../../../shared/m
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-fees-master',
-  templateUrl: './fees-master.component.html',
-  styleUrl: './fees-master.component.scss'
+    selector: 'app-fees-master',
+    templateUrl: './fees-master.component.html',
+    styleUrl: './fees-master.component.scss',
+    standalone: false
 })
 export class FeesMasterComponent {
   public routes = routes;

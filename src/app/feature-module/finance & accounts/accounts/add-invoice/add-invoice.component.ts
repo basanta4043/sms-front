@@ -5,9 +5,10 @@ import { Router } from '@angular/router';
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-add-invoice',
-  templateUrl: './add-invoice.component.html',
-  styleUrl: './add-invoice.component.scss'
+    selector: 'app-add-invoice',
+    templateUrl: './add-invoice.component.html',
+    styleUrl: './add-invoice.component.scss',
+    standalone: false
 })
 export class AddInvoiceComponent  implements OnInit, OnDestroy {
   public routes = routes;

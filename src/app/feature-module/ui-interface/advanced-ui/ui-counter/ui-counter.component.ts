@@ -4,9 +4,10 @@ import { routes } from '../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-ui-counter',
-  templateUrl: './ui-counter.component.html',
-  styleUrl: './ui-counter.component.scss'
+    selector: 'app-ui-counter',
+    templateUrl: './ui-counter.component.html',
+    styleUrl: './ui-counter.component.scss',
+    standalone: false
 })
 export class UiCounterComponent implements OnInit, OnDestroy {
   public routes = routes;
@@ -121,7 +122,8 @@ export class UiCounterComponent implements OnInit, OnDestroy {
   })
 }
 @Pipe({
-  name: 'formatTime',
+    name: 'formatTime',
+    standalone: false
 })
 export class FormatTimePipe implements PipeTransform {
   transform(value: number): string {

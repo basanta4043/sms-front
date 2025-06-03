@@ -4,9 +4,10 @@ import {ActivatedRoute} from "@angular/router";
 import {StudentService} from "../student.component.service";
 
 @Component({
-  selector: 'app-student-library',
-  templateUrl: './student-library.component.html',
-  styleUrl: './student-library.component.scss'
+    selector: 'app-student-library',
+    templateUrl: './student-library.component.html',
+    styleUrl: './student-library.component.scss',
+    standalone: false
 })
 export class StudentLibraryComponent implements OnInit {
   constructor(private route: ActivatedRoute, private studentService: StudentService) {

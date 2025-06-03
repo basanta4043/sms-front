@@ -8,9 +8,10 @@ import { staffPayroll, apiResultFormat, pageSelection } from '../../../../shared
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-staff-payroll',
-  templateUrl: './staff-payroll.component.html',
-  styleUrl: './staff-payroll.component.scss'
+    selector: 'app-staff-payroll',
+    templateUrl: './staff-payroll.component.html',
+    styleUrl: './staff-payroll.component.scss',
+    standalone: false
 })
 export class StaffPayrollComponent {
   public routes = routes;

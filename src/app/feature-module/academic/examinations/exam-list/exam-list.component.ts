@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-exam-list',
-  templateUrl: './exam-list.component.html',
-  styleUrl: './exam-list.component.scss'
+    selector: 'app-exam-list',
+    templateUrl: './exam-list.component.html',
+    styleUrl: './exam-list.component.scss',
+    standalone: false
 })
 export class ExamListComponent {
   public routes = routes;

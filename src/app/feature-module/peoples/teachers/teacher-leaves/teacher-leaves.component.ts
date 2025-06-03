@@ -8,9 +8,10 @@ import { PaginationService, tablePageSize } from '../../../../shared/custom-pagi
 import { DataService } from '../../../../shared/data/data.service';
 
 @Component({
-  selector: 'app-teacher-leaves',
-  templateUrl: './teacher-leaves.component.html',
-  styleUrl: './teacher-leaves.component.scss',
+    selector: 'app-teacher-leaves',
+    templateUrl: './teacher-leaves.component.html',
+    styleUrl: './teacher-leaves.component.scss',
+    standalone: false
 })
 export class TeacherLeavesComponent {
   public routes = routes;

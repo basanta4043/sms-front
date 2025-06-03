@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-hostel-rooms',
-  templateUrl: './hostel-rooms.component.html',
-  styleUrl: './hostel-rooms.component.scss'
+    selector: 'app-hostel-rooms',
+    templateUrl: './hostel-rooms.component.html',
+    styleUrl: './hostel-rooms.component.scss',
+    standalone: false
 })
 export class HostelRoomsComponent {
   initChecked = false;

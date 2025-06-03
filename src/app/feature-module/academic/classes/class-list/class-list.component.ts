@@ -12,9 +12,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-class-list',
-  templateUrl: './class-list.component.html',
-  styleUrl: './class-list.component.scss'
+    selector: 'app-class-list',
+    templateUrl: './class-list.component.html',
+    styleUrl: './class-list.component.scss',
+    standalone: false
 })
 export class ClassListComponent {
   initChecked = false;

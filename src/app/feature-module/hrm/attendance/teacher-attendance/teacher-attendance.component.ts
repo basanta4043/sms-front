@@ -8,9 +8,10 @@ import { routes } from '../../../../shared/routes/routes';
 import { apiResultFormat, pageSelection, teacherAttendance } from '../../../../shared/model/pages.model';
 
 @Component({
-  selector: 'app-teacher-attendance',
-  templateUrl: './teacher-attendance.component.html',
-  styleUrl: './teacher-attendance.component.scss'
+    selector: 'app-teacher-attendance',
+    templateUrl: './teacher-attendance.component.html',
+    styleUrl: './teacher-attendance.component.scss',
+    standalone: false
 })
 export class TeacherAttendanceComponent {
   public routes = routes;

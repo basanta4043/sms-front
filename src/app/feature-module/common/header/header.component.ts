@@ -6,9 +6,10 @@ import { Router } from '@angular/router';
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss',
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrl: './header.component.scss',
+    standalone: false
 })
 export class HeaderComponent {
   isNotificationVisible = false;

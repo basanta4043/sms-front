@@ -3,9 +3,10 @@ import { Router } from '@angular/router';
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-login3',
-  templateUrl: './login3.component.html',
-  styleUrl: './login3.component.scss'
+    selector: 'app-login3',
+    templateUrl: './login3.component.html',
+    styleUrl: './login3.component.scss',
+    standalone: false
 })
 export class Login3Component {
   public routes = routes;

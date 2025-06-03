@@ -4,9 +4,10 @@ import { Editor, Toolbar, Validators } from 'ngx-editor';
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-email-templates',
-  templateUrl: './email-templates.component.html',
-  styleUrl: './email-templates.component.scss'
+    selector: 'app-email-templates',
+    templateUrl: './email-templates.component.html',
+    styleUrl: './email-templates.component.scss',
+    standalone: false
 })
 export class EmailTemplatesComponent {
   public routes = routes;

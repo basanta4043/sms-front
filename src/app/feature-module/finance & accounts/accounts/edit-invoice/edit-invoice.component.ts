@@ -5,9 +5,10 @@ import { Editor, Toolbar, Validators } from 'ngx-editor';
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-edit-invoice',
-  templateUrl: './edit-invoice.component.html',
-  styleUrl: './edit-invoice.component.scss'
+    selector: 'app-edit-invoice',
+    templateUrl: './edit-invoice.component.html',
+    styleUrl: './edit-invoice.component.scss',
+    standalone: false
 })
 export class EditInvoiceComponent {
   public routes = routes;

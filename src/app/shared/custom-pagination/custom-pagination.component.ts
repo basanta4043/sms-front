@@ -7,9 +7,10 @@ import {
 } from './pagination.service';
 
 @Component({
-  selector: 'app-custom-pagination',
-  templateUrl: './custom-pagination.component.html',
-  styleUrls: ['./custom-pagination.component.scss'],
+    selector: 'app-custom-pagination',
+    templateUrl: './custom-pagination.component.html',
+    styleUrls: ['./custom-pagination.component.scss'],
+    standalone: false
 })
 export class CustomPaginationComponent {
   public pageSize = 10;

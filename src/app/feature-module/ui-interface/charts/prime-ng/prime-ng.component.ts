@@ -5,9 +5,10 @@ import { routes } from '../../../../shared/routes/routes';
 Chart.register(...registerables)
 
 @Component({
-  selector: 'app-prime-ng',
-  templateUrl: './prime-ng.component.html',
-  styleUrls: ['./prime-ng.component.scss']
+    selector: 'app-prime-ng',
+    templateUrl: './prime-ng.component.html',
+    styleUrls: ['./prime-ng.component.scss'],
+    standalone: false
 })
 export class PrimeNgComponent implements OnInit{
   public routes = routes;

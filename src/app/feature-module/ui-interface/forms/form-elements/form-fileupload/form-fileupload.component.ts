@@ -3,9 +3,10 @@ import { routes } from '../../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-form-fileupload',
-  templateUrl: './form-fileupload.component.html',
-  styleUrls: ['./form-fileupload.component.scss']
+    selector: 'app-form-fileupload',
+    templateUrl: './form-fileupload.component.html',
+    styleUrls: ['./form-fileupload.component.scss'],
+    standalone: false
 })
 export class FormFileuploadComponent {
   public routes = routes;

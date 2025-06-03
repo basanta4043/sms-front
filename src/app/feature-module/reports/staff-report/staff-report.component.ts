@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-staff-report',
-  templateUrl: './staff-report.component.html',
-  styleUrl: './staff-report.component.scss'
+    selector: 'app-staff-report',
+    templateUrl: './staff-report.component.html',
+    styleUrl: './staff-report.component.scss',
+    standalone: false
 })
 export class StaffReportComponent {
   public routes = routes;

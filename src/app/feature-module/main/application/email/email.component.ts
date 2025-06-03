@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-email',
-  templateUrl: './email.component.html',
-  styleUrls: ['./email.component.scss'],
+    selector: 'app-email',
+    templateUrl: './email.component.html',
+    styleUrls: ['./email.component.scss'],
+    standalone: false
 })
 export class EmailComponent {
   public routes = routes;

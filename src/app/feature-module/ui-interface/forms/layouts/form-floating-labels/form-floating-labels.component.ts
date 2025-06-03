@@ -3,9 +3,10 @@ import { routes } from '../../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-form-floating-labels',
-  templateUrl: './form-floating-labels.component.html',
-  styleUrl: './form-floating-labels.component.scss'
+    selector: 'app-form-floating-labels',
+    templateUrl: './form-floating-labels.component.html',
+    styleUrl: './form-floating-labels.component.scss',
+    standalone: false
 })
 export class FormFloatingLabelsComponent {
   public routes = routes;

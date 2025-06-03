@@ -3,9 +3,10 @@ import { routes } from '../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-ui-tooltips',
-  templateUrl: './ui-tooltips.component.html',
-  styleUrl: './ui-tooltips.component.scss',
+    selector: 'app-ui-tooltips',
+    templateUrl: './ui-tooltips.component.html',
+    styleUrl: './ui-tooltips.component.scss',
+    standalone: false
 })
 export class UiTooltipsComponent {
   public routes = routes;

@@ -8,9 +8,10 @@ import { teacherReport, apiResultFormat, pageSelection } from '../../../shared/m
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-teacher-report',
-  templateUrl: './teacher-report.component.html',
-  styleUrl: './teacher-report.component.scss'
+    selector: 'app-teacher-report',
+    templateUrl: './teacher-report.component.html',
+    styleUrl: './teacher-report.component.scss',
+    standalone: false
 })
 export class TeacherReportComponent {
   public routes = routes;

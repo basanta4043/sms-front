@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-classroom',
-  templateUrl: './classroom.component.html',
-  styleUrl: './classroom.component.scss'
+    selector: 'app-classroom',
+    templateUrl: './classroom.component.html',
+    styleUrl: './classroom.component.scss',
+    standalone: false
 })
 export class ClassroomComponent {
   public routes = routes;

@@ -8,9 +8,10 @@ import { staffDayWise, apiResultFormat, pageSelection } from '../../../shared/mo
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-staff-day-wise',
-  templateUrl: './staff-day-wise.component.html',
-  styleUrl: './staff-day-wise.component.scss'
+    selector: 'app-staff-day-wise',
+    templateUrl: './staff-day-wise.component.html',
+    styleUrl: './staff-day-wise.component.scss',
+    standalone: false
 })
 export class StaffDayWiseComponent {
   public routes = routes;

@@ -8,9 +8,10 @@ import { blogCategories, apiResultFormat, pageSelection } from '../../../../shar
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-blog-categories',
-  templateUrl: './blog-categories.component.html',
-  styleUrl: './blog-categories.component.scss'
+    selector: 'app-blog-categories',
+    templateUrl: './blog-categories.component.html',
+    styleUrl: './blog-categories.component.scss',
+    standalone: false
 })
 export class BlogCategoriesComponent {
   public routes = routes;

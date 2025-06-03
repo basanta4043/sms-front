@@ -10,9 +10,10 @@ interface City2 {
   code: string
 }
 @Component({
-  selector: 'app-guardian-grid',
-  templateUrl: './guardian-grid.component.html',
-  styleUrl: './guardian-grid.component.scss'
+    selector: 'app-guardian-grid',
+    templateUrl: './guardian-grid.component.html',
+    styleUrl: './guardian-grid.component.scss',
+    standalone: false
 })
 export class GuardianGridComponent {
   public routes = routes;

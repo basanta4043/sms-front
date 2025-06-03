@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-expenses-category',
-  templateUrl: './expenses-category.component.html',
-  styleUrl: './expenses-category.component.scss'
+    selector: 'app-expenses-category',
+    templateUrl: './expenses-category.component.html',
+    styleUrl: './expenses-category.component.scss',
+    standalone: false
 })
 export class ExpensesCategoryComponent {
   public routes = routes;

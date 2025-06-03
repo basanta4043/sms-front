@@ -3,9 +3,10 @@ import { routes } from '../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-ui-clipboard',
-  templateUrl: './ui-clipboard.component.html',
-  styleUrl: './ui-clipboard.component.scss'
+    selector: 'app-ui-clipboard',
+    templateUrl: './ui-clipboard.component.html',
+    styleUrl: './ui-clipboard.component.scss',
+    standalone: false
 })
 export class UiClipboardComponent {
   public routes = routes;

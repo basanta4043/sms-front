@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { PaginationService,pageSelection } from '../custom-pagination/pagination.service';
 
 @Component({
-  selector: 'app-pagechange',
-  templateUrl: './pagechange.component.html',
-  styleUrl: './pagechange.component.scss'
+    selector: 'app-pagechange',
+    templateUrl: './pagechange.component.html',
+    styleUrl: './pagechange.component.scss',
+    standalone: false
 })
 export class PagechangeComponent {
   public pageSize = 10;

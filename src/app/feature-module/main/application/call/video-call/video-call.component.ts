@@ -8,9 +8,10 @@ export interface videocallModel {
   name: string;
 }
 @Component({
-  selector: 'app-video-call',
-  templateUrl: './video-call.component.html',
-  styleUrl: './video-call.component.scss',
+    selector: 'app-video-call',
+    templateUrl: './video-call.component.html',
+    styleUrl: './video-call.component.scss',
+    standalone: false
 })
 export class VideoCallComponent implements AfterViewInit {
   isAddMeetingClassVisible = false;

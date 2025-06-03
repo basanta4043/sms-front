@@ -7,9 +7,10 @@ import { routes } from '../../../../shared/routes/routes';
 import { CommonService } from '../../../../shared/common/common.service';
 
 @Component({
-  selector: 'app-chat',
-  templateUrl: './chat.component.html',
-  styleUrls: ['./chat.component.scss'],
+    selector: 'app-chat',
+    templateUrl: './chat.component.html',
+    styleUrls: ['./chat.component.scss'],
+    standalone: false
 })
 export class ChatComponent implements AfterViewChecked, OnDestroy {
   public base = '';

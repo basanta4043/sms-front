@@ -15,9 +15,10 @@ import { Sort } from '@angular/material/sort';
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-approve-request',
-  templateUrl: './approve-request.component.html',
-  styleUrl: './approve-request.component.scss',
+    selector: 'app-approve-request',
+    templateUrl: './approve-request.component.html',
+    styleUrl: './approve-request.component.scss',
+    standalone: false
 })
 export class ApproveRequestComponent {
   public routes = routes;

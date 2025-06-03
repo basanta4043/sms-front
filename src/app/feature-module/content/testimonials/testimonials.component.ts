@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-testimonials',
-  templateUrl: './testimonials.component.html',
-  styleUrl: './testimonials.component.scss'
+    selector: 'app-testimonials',
+    templateUrl: './testimonials.component.html',
+    styleUrl: './testimonials.component.scss',
+    standalone: false
 })
 export class TestimonialsComponent {
   initChecked = false;

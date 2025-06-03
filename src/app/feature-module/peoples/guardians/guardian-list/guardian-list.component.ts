@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-guardian-list',
-  templateUrl: './guardian-list.component.html',
-  styleUrl: './guardian-list.component.scss'
+    selector: 'app-guardian-list',
+    templateUrl: './guardian-list.component.html',
+    styleUrl: './guardian-list.component.scss',
+    standalone: false
 })
 export class GuardianListComponent {
   initChecked = false;

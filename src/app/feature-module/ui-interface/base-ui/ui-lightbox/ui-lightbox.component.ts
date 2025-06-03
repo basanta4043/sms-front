@@ -5,9 +5,10 @@ import { Lightbox } from 'ngx-lightbox';
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-ui-lightbox',
-  templateUrl: './ui-lightbox.component.html',
-  styleUrl: './ui-lightbox.component.scss',
+    selector: 'app-ui-lightbox',
+    templateUrl: './ui-lightbox.component.html',
+    styleUrl: './ui-lightbox.component.scss',
+    standalone: false
 })
 export class UiLightboxComponent {
   public routes = routes;

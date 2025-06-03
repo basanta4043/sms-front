@@ -11,9 +11,10 @@ interface data {
   code: string;
 }
 @Component({
-  selector: 'app-class-report',
-  templateUrl: './class-report.component.html',
-  styleUrl: './class-report.component.scss'
+    selector: 'app-class-report',
+    templateUrl: './class-report.component.html',
+    styleUrl: './class-report.component.scss',
+    standalone: false
 })
 export class ClassReportComponent {
   initChecked = false;

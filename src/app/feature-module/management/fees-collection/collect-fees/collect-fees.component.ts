@@ -17,9 +17,10 @@ interface data {
 
 
 @Component({
-  selector: 'app-collect-fees',
-  templateUrl: './collect-fees.component.html',
-  styleUrl: './collect-fees.component.scss'
+    selector: 'app-collect-fees',
+    templateUrl: './collect-fees.component.html',
+    styleUrl: './collect-fees.component.scss',
+    standalone: false
 })
 export class CollectFeesComponent {
   public routes = routes;

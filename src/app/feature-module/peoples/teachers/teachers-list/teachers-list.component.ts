@@ -8,9 +8,10 @@ import { DataService } from '../../../../shared/data/data.service';
 import { teachersList, apiResultFormat, pageSelection } from '../../../../shared/model/pages.model';
 
 @Component({
-  selector: 'app-teachers-list',
-  templateUrl: './teachers-list.component.html',
-  styleUrl: './teachers-list.component.scss'
+    selector: 'app-teachers-list',
+    templateUrl: './teachers-list.component.html',
+    styleUrl: './teachers-list.component.scss',
+    standalone: false
 })
 export class TeachersListComponent {
   public routes = routes;

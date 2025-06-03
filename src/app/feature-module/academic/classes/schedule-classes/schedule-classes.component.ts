@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-schedule-classes',
-  templateUrl: './schedule-classes.component.html',
-  styleUrl: './schedule-classes.component.scss'
+    selector: 'app-schedule-classes',
+    templateUrl: './schedule-classes.component.html',
+    styleUrl: './schedule-classes.component.scss',
+    standalone: false
 })
 export class ScheduleClassesComponent {
   public routes = routes;

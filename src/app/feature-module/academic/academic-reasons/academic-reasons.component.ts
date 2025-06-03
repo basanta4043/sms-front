@@ -15,9 +15,10 @@ interface data {
   code: string;
 }
 @Component({
-  selector: 'app-academic-reasons',
-  templateUrl: './academic-reasons.component.html',
-  styleUrl: './academic-reasons.component.scss',
+    selector: 'app-academic-reasons',
+    templateUrl: './academic-reasons.component.html',
+    styleUrl: './academic-reasons.component.scss',
+    standalone: false
 })
 export class AcademicReasonsComponent implements OnInit {
   public routes = routes;

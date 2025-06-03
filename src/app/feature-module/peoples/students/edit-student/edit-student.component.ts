@@ -6,9 +6,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-edit-student',
-  templateUrl: './edit-student.component.html',
-  styleUrl: './edit-student.component.scss'
+    selector: 'app-edit-student',
+    templateUrl: './edit-student.component.html',
+    styleUrl: './edit-student.component.scss',
+    standalone: false
 })
 export class EditStudentComponent {
   public routes = routes;

@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-exam-schedule',
-  templateUrl: './exam-schedule.component.html',
-  styleUrl: './exam-schedule.component.scss'
+    selector: 'app-exam-schedule',
+    templateUrl: './exam-schedule.component.html',
+    styleUrl: './exam-schedule.component.scss',
+    standalone: false
 })
 export class ExamScheduleComponent {
   public routes = routes;

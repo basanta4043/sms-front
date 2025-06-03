@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-books',
-  templateUrl: './books.component.html',
-  styleUrl: './books.component.scss'
+    selector: 'app-books',
+    templateUrl: './books.component.html',
+    styleUrl: './books.component.scss',
+    standalone: false
 })
 export class BooksComponent {
   public routes = routes;

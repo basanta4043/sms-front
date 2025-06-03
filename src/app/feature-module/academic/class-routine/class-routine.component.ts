@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-class-routine',
-  templateUrl: './class-routine.component.html',
-  styleUrl: './class-routine.component.scss'
+    selector: 'app-class-routine',
+    templateUrl: './class-routine.component.html',
+    styleUrl: './class-routine.component.scss',
+    standalone: false
 })
 export class ClassRoutineComponent {
   public routes = routes;

@@ -8,9 +8,10 @@ import { designation, apiResultFormat, pageSelection } from '../../../shared/mod
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-designation',
-  templateUrl: './designation.component.html',
-  styleUrl: './designation.component.scss'
+    selector: 'app-designation',
+    templateUrl: './designation.component.html',
+    styleUrl: './designation.component.scss',
+    standalone: false
 })
 export class DesignationComponent {
   public routes = routes;

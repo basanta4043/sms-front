@@ -3,9 +3,10 @@ import { routes } from '../../../shared/routes/routes';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-reset-password-2',
-  templateUrl: './reset-password-2.component.html',
-  styleUrl: './reset-password-2.component.scss'
+    selector: 'app-reset-password-2',
+    templateUrl: './reset-password-2.component.html',
+    styleUrl: './reset-password-2.component.scss',
+    standalone: false
 })
 export class ResetPassword2Component {
   public routes = routes;

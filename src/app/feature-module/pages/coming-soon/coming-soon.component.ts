@@ -2,9 +2,10 @@ import { Component, OnDestroy, Renderer2 } from '@angular/core';
 import { CommonService } from '../../../shared/common/common.service';
 
 @Component({
-  selector: 'app-coming-soon',
-  templateUrl: './coming-soon.component.html',
-  styleUrl: './coming-soon.component.scss'
+    selector: 'app-coming-soon',
+    templateUrl: './coming-soon.component.html',
+    styleUrl: './coming-soon.component.scss',
+    standalone: false
 })
 export class ComingSoonComponent implements  OnDestroy {
   public base = '';

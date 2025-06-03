@@ -4,9 +4,10 @@ import Swal from 'sweetalert2';
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-ui-sweetalerts',
-  templateUrl: './ui-sweetalerts.component.html',
-  styleUrl: './ui-sweetalerts.component.scss'
+    selector: 'app-ui-sweetalerts',
+    templateUrl: './ui-sweetalerts.component.html',
+    styleUrl: './ui-sweetalerts.component.scss',
+    standalone: false
 })
 export class UiSweetalertsComponent {
   public routes = routes;

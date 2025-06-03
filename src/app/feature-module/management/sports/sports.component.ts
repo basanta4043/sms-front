@@ -8,9 +8,10 @@ import { DataService } from '../../../shared/data/data.service';
 import { sports, apiResultFormat, pageSelection } from '../../../shared/model/pages.model';
 
 @Component({
-  selector: 'app-sports',
-  templateUrl: './sports.component.html',
-  styleUrl: './sports.component.scss'
+    selector: 'app-sports',
+    templateUrl: './sports.component.html',
+    styleUrl: './sports.component.scss',
+    standalone: false
 })
 export class SportsComponent {
   public routes = routes;

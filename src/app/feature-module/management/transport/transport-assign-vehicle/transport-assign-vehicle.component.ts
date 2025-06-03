@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-transport-assign-vehicle',
-  templateUrl: './transport-assign-vehicle.component.html',
-  styleUrl: './transport-assign-vehicle.component.scss'
+    selector: 'app-transport-assign-vehicle',
+    templateUrl: './transport-assign-vehicle.component.html',
+    styleUrl: './transport-assign-vehicle.component.scss',
+    standalone: false
 })
 export class TransportAssignVehicleComponent {
   initChecked = false;

@@ -8,9 +8,10 @@ import { MenuItem, SubMenu, subMenus, url } from '../../../shared/model/sidebar.
 
 
 @Component({
-  selector: 'app-sidebar',
-  templateUrl: './sidebar.component.html',
-  styleUrl: './sidebar.component.scss'
+    selector: 'app-sidebar',
+    templateUrl: './sidebar.component.html',
+    styleUrl: './sidebar.component.scss',
+    standalone: false
 })
 export class SidebarComponent {
   public routes = routes;

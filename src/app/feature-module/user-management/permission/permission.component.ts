@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-permission',
-  templateUrl: './permission.component.html',
-  styleUrl: './permission.component.scss'
+    selector: 'app-permission',
+    templateUrl: './permission.component.html',
+    styleUrl: './permission.component.scss',
+    standalone: false
 })
 export class PermissionComponent {
   initChecked = false;

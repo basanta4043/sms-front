@@ -8,9 +8,10 @@ import { deleteAccount, apiResultFormat, pageSelection } from '../../../shared/m
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-delete-account',
-  templateUrl: './delete-account.component.html',
-  styleUrl: './delete-account.component.scss'
+    selector: 'app-delete-account',
+    templateUrl: './delete-account.component.html',
+    styleUrl: './delete-account.component.scss',
+    standalone: false
 })
 export class DeleteAccountComponent {
   public routes = routes;

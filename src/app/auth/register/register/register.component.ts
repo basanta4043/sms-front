@@ -3,9 +3,10 @@ import { Router } from '@angular/router';
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-register',
-  templateUrl: './register.component.html',
-  styleUrl: './register.component.scss'
+    selector: 'app-register',
+    templateUrl: './register.component.html',
+    styleUrl: './register.component.scss',
+    standalone: false
 })
 export class RegisterComponent {
   public routes = routes

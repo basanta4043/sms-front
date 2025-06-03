@@ -8,9 +8,10 @@ import { contactMessages, apiResultFormat, pageSelection } from '../../../shared
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-contact-messages',
-  templateUrl: './contact-messages.component.html',
-  styleUrl: './contact-messages.component.scss',
+    selector: 'app-contact-messages',
+    templateUrl: './contact-messages.component.html',
+    styleUrl: './contact-messages.component.scss',
+    standalone: false
 })
 export class ContactMessagesComponent {
   public routes = routes;

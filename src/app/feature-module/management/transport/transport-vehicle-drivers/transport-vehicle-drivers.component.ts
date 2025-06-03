@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-transport-vehicle-drivers',
-  templateUrl: './transport-vehicle-drivers.component.html',
-  styleUrl: './transport-vehicle-drivers.component.scss'
+    selector: 'app-transport-vehicle-drivers',
+    templateUrl: './transport-vehicle-drivers.component.html',
+    styleUrl: './transport-vehicle-drivers.component.scss',
+    standalone: false
 })
 export class TransportVehicleDriversComponent {
   initChecked = false;

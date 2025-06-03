@@ -5,9 +5,10 @@ interface Option {
   value: string;
 }
 @Component({
-  selector: 'app-add-teacher',
-  templateUrl: './add-teacher.component.html',
-  styleUrl: './add-teacher.component.scss',
+    selector: 'app-add-teacher',
+    templateUrl: './add-teacher.component.html',
+    styleUrl: './add-teacher.component.scss',
+    standalone: false
 })
 export class AddTeacherComponent {
   public routes = routes;

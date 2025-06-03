@@ -4,9 +4,10 @@ import { routes } from '../../../../shared/routes/routes';
 import { Editor, Toolbar, Validators } from 'ngx-editor';
 import { FormControl, FormGroup } from '@angular/forms';
 @Component({
-  selector: 'app-notes',
-  templateUrl: './notes.component.html',
-  styleUrl: './notes.component.scss',
+    selector: 'app-notes',
+    templateUrl: './notes.component.html',
+    styleUrl: './notes.component.scss',
+    standalone: false
 })
 export class NotesComponent {
 public routes = routes

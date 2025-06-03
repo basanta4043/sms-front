@@ -19,9 +19,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-file-manager',
-  templateUrl: './file-manager.component.html',
-  styleUrl: './file-manager.component.scss',
+    selector: 'app-file-manager',
+    templateUrl: './file-manager.component.html',
+    styleUrl: './file-manager.component.scss',
+    standalone: false
 })
 export class FileManagerComponent {
   initChecked = false;

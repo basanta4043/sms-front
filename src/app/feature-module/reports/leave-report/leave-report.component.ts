@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-leave-report',
-  templateUrl: './leave-report.component.html',
-  styleUrl: './leave-report.component.scss'
+    selector: 'app-leave-report',
+    templateUrl: './leave-report.component.html',
+    styleUrl: './leave-report.component.scss',
+    standalone: false
 })
 export class LeaveReportComponent {
   public routes = routes;

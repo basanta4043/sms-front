@@ -8,9 +8,10 @@ import { pages, apiResultFormat, pageSelection } from '../../../shared/model/pag
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-pages',
-  templateUrl: './pages.component.html',
-  styleUrl: './pages.component.scss'
+    selector: 'app-pages',
+    templateUrl: './pages.component.html',
+    styleUrl: './pages.component.scss',
+    standalone: false
 })
 export class PagesComponent {
   public routes = routes;

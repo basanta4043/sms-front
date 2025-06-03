@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-states',
-  templateUrl: './states.component.html',
-  styleUrl: './states.component.scss'
+    selector: 'app-states',
+    templateUrl: './states.component.html',
+    styleUrl: './states.component.scss',
+    standalone: false
 })
 export class StatesComponent {
   initChecked = false;

@@ -4,10 +4,11 @@ import { routes } from '../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-ui-toasts',
-  templateUrl: './ui-toasts.component.html',
-  styleUrl: './ui-toasts.component.scss',
-  providers: [MessageService],
+    selector: 'app-ui-toasts',
+    templateUrl: './ui-toasts.component.html',
+    styleUrl: './ui-toasts.component.scss',
+    providers: [MessageService],
+    standalone: false
 })
 export class UiToastsComponent {
   public routes = routes;

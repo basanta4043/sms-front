@@ -10,9 +10,10 @@ interface City2 {
   code: string
 }
 @Component({
-  selector: 'app-parent-grid',
-  templateUrl: './parent-grid.component.html',
-  styleUrl: './parent-grid.component.scss'
+    selector: 'app-parent-grid',
+    templateUrl: './parent-grid.component.html',
+    styleUrl: './parent-grid.component.scss',
+    standalone: false
 })
 export class ParentGridComponent {
   public routes = routes;

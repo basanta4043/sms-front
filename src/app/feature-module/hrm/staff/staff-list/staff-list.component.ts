@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-staff-list',
-  templateUrl: './staff-list.component.html',
-  styleUrl: './staff-list.component.scss'
+    selector: 'app-staff-list',
+    templateUrl: './staff-list.component.html',
+    styleUrl: './staff-list.component.scss',
+    standalone: false
 })
 export class StaffListComponent {
   initChecked = false;

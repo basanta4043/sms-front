@@ -23,9 +23,10 @@ interface City2 {
 }
 
 @Component({
-  selector: 'app-parents-list',
-  templateUrl: './parents-list.component.html',
-  styleUrl: './parents-list.component.scss',
+    selector: 'app-parents-list',
+    templateUrl: './parents-list.component.html',
+    styleUrl: './parents-list.component.scss',
+    standalone: false
 })
 export class ParentsListComponent {
   initChecked = false;

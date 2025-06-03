@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-profile',
-  templateUrl: './profile.component.html',
-  styleUrl: './profile.component.scss'
+    selector: 'app-profile',
+    templateUrl: './profile.component.html',
+    styleUrl: './profile.component.scss',
+    standalone: false
 })
 export class ProfileComponent {
   public routes = routes;

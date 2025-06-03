@@ -13,10 +13,11 @@ import { INITIAL_EVENTS, createEventId } from './event-utils';
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-calendar',
-  templateUrl: './calendar.component.html',
-  styleUrls: ['./calendar.component.scss'],
-  encapsulation: ViewEncapsulation.None,
+    selector: 'app-calendar',
+    templateUrl: './calendar.component.html',
+    styleUrls: ['./calendar.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    standalone: false
 })
 export class CalendarComponent {
   public routes = routes;

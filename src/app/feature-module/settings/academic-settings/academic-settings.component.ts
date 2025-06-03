@@ -3,9 +3,10 @@ import { routes } from '../../../shared/routes/routes';
 import { CommonService } from '../../../shared/common/common.service';
 
 @Component({
-  selector: 'app-academic-settings',
-  templateUrl: './academic-settings.component.html',
-  styleUrl: './academic-settings.component.scss'
+    selector: 'app-academic-settings',
+    templateUrl: './academic-settings.component.html',
+    styleUrl: './academic-settings.component.scss',
+    standalone: false
 })
 export class AcademicSettingsComponent {
   public routes = routes;

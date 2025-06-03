@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-players',
-  templateUrl: './players.component.html',
-  styleUrl: './players.component.scss'
+    selector: 'app-players',
+    templateUrl: './players.component.html',
+    styleUrl: './players.component.scss',
+    standalone: false
 })
 export class PlayersComponent {
   initChecked = false;

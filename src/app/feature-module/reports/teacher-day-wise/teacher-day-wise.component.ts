@@ -8,9 +8,10 @@ import { DataService } from '../../../shared/data/data.service';
 import { teacherDayWise, apiResultFormat, pageSelection } from '../../../shared/model/pages.model';
 
 @Component({
-  selector: 'app-teacher-day-wise',
-  templateUrl: './teacher-day-wise.component.html',
-  styleUrl: './teacher-day-wise.component.scss'
+    selector: 'app-teacher-day-wise',
+    templateUrl: './teacher-day-wise.component.html',
+    styleUrl: './teacher-day-wise.component.scss',
+    standalone: false
 })
 export class TeacherDayWiseComponent {
   public routes = routes;

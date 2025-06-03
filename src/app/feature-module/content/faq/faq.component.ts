@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-faq',
-  templateUrl: './faq.component.html',
-  styleUrl: './faq.component.scss'
+    selector: 'app-faq',
+    templateUrl: './faq.component.html',
+    styleUrl: './faq.component.scss',
+    standalone: false
 })
 export class FaqComponent {
   public routes = routes;

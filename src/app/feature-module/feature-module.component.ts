@@ -8,9 +8,10 @@ import { SettingsService } from '../shared/settings/settings.service';
 
 
 @Component({
-  selector: 'app-feature-module',
-  templateUrl: './feature-module.component.html',
-  styleUrl: './feature-module.component.scss'
+    selector: 'app-feature-module',
+    templateUrl: './feature-module.component.html',
+    styleUrl: './feature-module.component.scss',
+    standalone: false
 })
 export class FeatureModuleComponent {
   public miniSidebar = false;

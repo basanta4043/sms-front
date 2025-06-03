@@ -8,9 +8,10 @@ import { DataService } from '../../../shared/data/data.service';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-student-attendance-type',
-  templateUrl: './student-attendance-type.component.html',
-  styleUrl: './student-attendance-type.component.scss'
+    selector: 'app-student-attendance-type',
+    templateUrl: './student-attendance-type.component.html',
+    styleUrl: './student-attendance-type.component.scss',
+    standalone: false
 })
 export class StudentAttendanceTypeComponent {
   initChecked = false;

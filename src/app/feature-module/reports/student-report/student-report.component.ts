@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-student-report',
-  templateUrl: './student-report.component.html',
-  styleUrl: './student-report.component.scss'
+    selector: 'app-student-report',
+    templateUrl: './student-report.component.html',
+    styleUrl: './student-report.component.scss',
+    standalone: false
 })
 export class StudentReportComponent {
   public routes = routes;

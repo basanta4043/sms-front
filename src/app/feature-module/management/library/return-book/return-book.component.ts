@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-return-book',
-  templateUrl: './return-book.component.html',
-  styleUrl: './return-book.component.scss'
+    selector: 'app-return-book',
+    templateUrl: './return-book.component.html',
+    styleUrl: './return-book.component.scss',
+    standalone: false
 })
 export class ReturnBookComponent {
   public routes = routes;

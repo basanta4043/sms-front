@@ -9,9 +9,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-todo',
-  templateUrl: './todo.component.html',
-  styleUrl: './todo.component.scss',
+    selector: 'app-todo',
+    templateUrl: './todo.component.html',
+    styleUrl: './todo.component.scss',
+    standalone: false
 })
 export class TodoComponent implements OnInit, OnDestroy {
   public routes = routes

@@ -42,9 +42,10 @@ export type ChartOptions = {
  
 };
 @Component({
-  selector: 'app-student-dashboard',
-  templateUrl: './student-dashboard.component.html',
-  styleUrl: './student-dashboard.component.scss'
+    selector: 'app-student-dashboard',
+    templateUrl: './student-dashboard.component.html',
+    styleUrl: './student-dashboard.component.scss',
+    standalone: false
 })
 export class StudentDashboardComponent {
   addNewRow() {

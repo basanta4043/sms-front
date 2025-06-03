@@ -4,9 +4,10 @@ import { routes } from '../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-ui-rangeslider',
-  templateUrl: './ui-rangeslider.component.html',
-  styleUrl: './ui-rangeslider.component.scss'
+    selector: 'app-ui-rangeslider',
+    templateUrl: './ui-rangeslider.component.html',
+    styleUrl: './ui-rangeslider.component.scss',
+    standalone: false
 })
 export class UiRangesliderComponent {
   public routes = routes;

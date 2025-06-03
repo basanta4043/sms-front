@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-holidays',
-  templateUrl: './holidays.component.html',
-  styleUrl: './holidays.component.scss'
+    selector: 'app-holidays',
+    templateUrl: './holidays.component.html',
+    styleUrl: './holidays.component.scss',
+    standalone: false
 })
 export class HolidaysComponent {
   initChecked = false;

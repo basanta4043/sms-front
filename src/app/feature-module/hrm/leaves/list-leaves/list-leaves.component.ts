@@ -15,9 +15,10 @@ interface data {
   code: string;
 }
 @Component({
-  selector: 'app-list-leaves',
-  templateUrl: './list-leaves.component.html',
-  styleUrl: './list-leaves.component.scss'
+    selector: 'app-list-leaves',
+    templateUrl: './list-leaves.component.html',
+    styleUrl: './list-leaves.component.scss',
+    standalone: false
 })
 export class ListLeavesComponent {
   public routes = routes;

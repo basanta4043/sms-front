@@ -3,10 +3,11 @@ import { routes } from '../../../../shared/routes/routes';
 
 
 @Component({
-  selector: 'app-ui-stickynote',
-  templateUrl: './ui-stickynote.component.html',
-  styleUrl: './ui-stickynote.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-ui-stickynote',
+    templateUrl: './ui-stickynote.component.html',
+    styleUrl: './ui-stickynote.component.scss',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class UiStickynoteComponent {
   notes = [];

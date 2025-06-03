@@ -12,9 +12,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-class-home-work',
-  templateUrl: './class-home-work.component.html',
-  styleUrl: './class-home-work.component.scss'
+    selector: 'app-class-home-work',
+    templateUrl: './class-home-work.component.html',
+    styleUrl: './class-home-work.component.scss',
+    standalone: false
 })
 export class ClassHomeWorkComponent {
   initChecked = false;

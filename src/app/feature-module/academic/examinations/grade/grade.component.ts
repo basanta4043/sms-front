@@ -8,9 +8,10 @@ import { grade, apiResultFormat, pageSelection } from '../../../../shared/model/
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-grade',
-  templateUrl: './grade.component.html',
-  styleUrl: './grade.component.scss'
+    selector: 'app-grade',
+    templateUrl: './grade.component.html',
+    styleUrl: './grade.component.scss',
+    standalone: false
 })
 export class GradeComponent {
   public routes = routes;

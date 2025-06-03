@@ -8,9 +8,10 @@ import { departments, apiResultFormat, pageSelection } from '../../../shared/mod
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-departments',
-  templateUrl: './departments.component.html',
-  styleUrl: './departments.component.scss'
+    selector: 'app-departments',
+    templateUrl: './departments.component.html',
+    styleUrl: './departments.component.scss',
+    standalone: false
 })
 export class DepartmentsComponent {
   public routes = routes;

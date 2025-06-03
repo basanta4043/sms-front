@@ -3,9 +3,10 @@ import { Router } from '@angular/router';
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-two-step-verification',
-  templateUrl: './two-step-verification.component.html',
-  styleUrl: './two-step-verification.component.scss'
+    selector: 'app-two-step-verification',
+    templateUrl: './two-step-verification.component.html',
+    styleUrl: './two-step-verification.component.scss',
+    standalone: false
 })
 export class TwoStepVerificationComponent {
   public routes = routes;

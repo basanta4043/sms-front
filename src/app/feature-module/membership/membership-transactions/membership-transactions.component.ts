@@ -8,9 +8,10 @@ import { membershipTransactions, apiResultFormat, pageSelection } from '../../..
 import { routes } from '../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-membership-transactions',
-  templateUrl: './membership-transactions.component.html',
-  styleUrl: './membership-transactions.component.scss'
+    selector: 'app-membership-transactions',
+    templateUrl: './membership-transactions.component.html',
+    styleUrl: './membership-transactions.component.scss',
+    standalone: false
 })
 export class MembershipTransactionsComponent {
   public routes = routes;

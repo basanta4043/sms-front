@@ -9,9 +9,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-add-student',
-  templateUrl: './add-student.component.html',
-  styleUrl: './add-student.component.scss'
+    selector: 'app-add-student',
+    templateUrl: './add-student.component.html',
+    styleUrl: './add-student.component.scss',
+    standalone: false
 })
 export class AddStudentComponent implements OnInit {
   public routes = routes;

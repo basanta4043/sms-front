@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 import { Sort } from '@angular/material/sort';
 
 @Component({
-  selector: 'app-roles-permission',
-  templateUrl: './roles-permission.component.html',
-  styleUrl: './roles-permission.component.scss'
+    selector: 'app-roles-permission',
+    templateUrl: './roles-permission.component.html',
+    styleUrl: './roles-permission.component.scss',
+    standalone: false
 })
 export class RolesPermissionComponent {
   initChecked = false;

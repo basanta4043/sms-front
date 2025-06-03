@@ -8,9 +8,10 @@ import { blogComments, apiResultFormat, pageSelection } from '../../../../shared
 import { routes } from '../../../../shared/routes/routes';
 
 @Component({
-  selector: 'app-blog-comments',
-  templateUrl: './blog-comments.component.html',
-  styleUrl: './blog-comments.component.scss'
+    selector: 'app-blog-comments',
+    templateUrl: './blog-comments.component.html',
+    styleUrl: './blog-comments.component.scss',
+    standalone: false
 })
 export class BlogCommentsComponent {
   public routes = routes;

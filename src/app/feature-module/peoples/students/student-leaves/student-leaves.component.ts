@@ -9,9 +9,10 @@ import { DataService } from '../../../../shared/data/data.service';
 import {StudentService} from "../student.component.service";
 
 @Component({
-  selector: 'app-student-leaves',
-  templateUrl: './student-leaves.component.html',
-  styleUrl: './student-leaves.component.scss'
+    selector: 'app-student-leaves',
+    templateUrl: './student-leaves.component.html',
+    styleUrl: './student-leaves.component.scss',
+    standalone: false
 })
 export class StudentLeavesComponent implements OnInit {
   siblings = [

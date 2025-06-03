@@ -16,9 +16,10 @@ interface data {
 }
 
 @Component({
-  selector: 'app-library-members',
-  templateUrl: './library-members.component.html',
-  styleUrl: './library-members.component.scss'
+    selector: 'app-library-members',
+    templateUrl: './library-members.component.html',
+    styleUrl: './library-members.component.scss',
+    standalone: false
 })
 export class LibraryMembersComponent {
   public routes = routes;
